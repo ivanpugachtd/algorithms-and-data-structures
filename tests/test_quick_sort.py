@@ -1,9 +1,5 @@
 import pytest
 from src.sorting.quick_sort import quick_sort
-import sys
-import os
-
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
 
 
 @pytest.mark.parametrize(
